@@ -1,4 +1,4 @@
-# ILLUMIO CODING CHALLENGE
+# Packet filter firewall
 
 By,
 **Arvind Ganesan**
@@ -18,13 +18,6 @@ By,
 
 
 
-## Future Work
- - I thought of reducing the time to search a port based on the input. 
-   I tried applying the concept of merging overlapping intervals to reduce search complexity. 
-   But the complexity was greater than linear search, where merging required sorting the intervals first.
-   -  I also thought of storing port ranges as an interval tree would help us in efficient lookup of port and ip address in O(logN) time.
-   -  Add JUnit framework to test the application
-   -Try to create a decision tree
     
 ## Edge Cases Covered
 -   If input file is null or empty, the program is returned.
@@ -35,12 +28,6 @@ By,
 -   Hashmap is initialized once file exists. If its not and accept_packet function is       called, hashmap.get throws nullpointer exception. So null case is handled.
 
 
-## INTERESTED TEAMS
--   Platform Team (Priority 1) 
--   Policy Team (Priority 2)
--   Data Team (Priority 3)
-
-    
 
 
 
